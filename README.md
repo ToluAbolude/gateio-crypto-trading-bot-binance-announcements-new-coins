@@ -12,13 +12,16 @@ It comes with a live and test mode so naturally, use at your own risk.
 
     python3 -m venv env
 
-## 2 Activate venv
+## 2 Activate/Deactivate venv
 
     Linux:
     source env/bin/activate
 
     Windows:
-    env\Scripts\activate.bat
+    env\Scripts\activate.bat  
+
+    Windows:
+    env\Scripts\deactivate.bat
 
 ## 3. Install program requirements
 
