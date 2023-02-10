@@ -12,6 +12,15 @@ It comes with a live and test mode so naturally, use at your own risk.
 
     python3 -m venv env
 
+## To remove venv
+    python -m pip freeze > requirements.txt
+    python -m pip uninstall -r requirements.txt -y
+
+    Windows:
+    env\Scripts\deactivate.bat
+
+    python -m rm -r env/
+
 ## 2 Activate/Deactivate venv
 
     Linux:
@@ -20,8 +29,7 @@ It comes with a live and test mode so naturally, use at your own risk.
     Windows:
     env\Scripts\activate.bat  
 
-    Windows:
-    env\Scripts\deactivate.bat
+    
 
 ## 3. Install program requirements
 
